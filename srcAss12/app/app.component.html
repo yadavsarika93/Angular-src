@@ -1,0 +1,14 @@
+<h1>Marvellous Firebase</h1>
+<h2>Contents from Fire Store</h2>
+<ul>
+  <li *ngFor="let item of items | async">
+      <pre>{{ item | json }}</pre>
+  </li>
+  </ul>
+  <hr>
+  <h4>Conten from silver</h4>
+  <ul>
+    <li *ngFor="let item12 of items1 | async">
+        <pre>{{ item12 | json }}</pre>
+    </li>
+    </ul>
